@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+#products {
+
+}
+
+#about {
+
+}
+
+#contact {
+
+}
+
+/* Mobile screens */
+@media screen and (max-width: 768px) {
+  
+}

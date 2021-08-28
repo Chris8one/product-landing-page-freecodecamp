@@ -2,26 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Chris8one</title>
 </head>
 <body>
+
   <header id="header">
     <nav id="nav-bar">
-      <img id="header-img" src="" alt="Header logo">
-      <a class="nav-link" href="#"></a>
+      <a class="nav-link" href="#hero"><img id="header-img" src="" alt="Header logo"></a>
       <a class="nav-link" href="#products">Products</a>
       <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#contact">Contact</a>
     </nav>
   </header>
-  <div id="products">
-    <video src=""></video>
+
+  <div class="container">
+    <h1 id="link-headers">Chris8one</h1>
+    <section id="hero">
+      <p>Hero section</p>
+    </section>
   </div>
-  <div id="about"></div>
-  <div id="contact">
+
+  <div class="container">
+    <h2 class="link-headers">Products</h2>
+    <section id="products">
+      <video width="480" height="240" id="video" src="assets/media/slipknot-solway_firth.mp4" controls></video>
+    </section>
   </div>
+
+  <div class="container">
+    <h2 class="link-headers">About</h2>
+    <section id="about">
+      <p></p>
+    </section>
+  </div>
+
+  <div class="container">
+    <h2 class="link-headers">Contact</h2>
+    <section id="contact">
+      
+    </section>
+  </div>
+
   <footer>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <label for="email">Subscribe to my newsletter:</label>
@@ -31,6 +54,8 @@
       <input type="submit" id="submit" value="Submit">
     </form>
   </footer>
+
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
 </html>
